@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amafia – Para a nova geração</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+  <!-- AOS for scroll reveal -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">Amafia</a>
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="main-nav">
+      <a href="#home">Início</a>
+      <a href="#music">Música</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <!-- Lottie waveform animation -->
+    <div id="wave" class="lottie-container"></div>
+
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Amafia</h1>
+      <p>Para a nova geração</p>
+      <a href="#music" class="btn">Ouça Agora</a>
+    </div>
+  </section>
+
+  <section id="music" class="section music" data-aos="fade-up">
+    <h2>Singles em Destaque</h2>
+    <div class="tracks">
+      <iframe src="https://open.spotify.com/embed/track/2Wz37zVM2wX1UnldcV7fnS"
+        width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/617XL2C8DBF2pCE5BupdbS"
+        width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="artist-embed">
+      <iframe src="https://open.spotify.com/embed/artist/4eZWL2LxbOmCvXCCKTWeWX"
+        width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  </section>
+
+  <section id="about" class="section about" data-aos="fade-up">
+    <h2>Sobre Amafia</h2>
+    <p>
+      Amafia é uma artista jovem nascida e forjada na periferia. Órfã de pai e mãe ainda na infância, cresceu enfrentando a dura realidade das ruas — fome, solidão, e a necessidade precoce de fazer seu próprio dinheiro. Mas foi nessa mesma rua que encontrou a rima, a escrita, a poesia — e sua voz.
+    </p>
+    <p>
+      Chegou na cena de mansinho — colando em eventos de poesia, batalhas e rodas de rap. Sempre mais na dela, mas com algo verdadeiro pra mostrar. Agora começa a ganhar mais espaço, acreditando mais em si mesma, no que tem pra dizer e no impacto da sua voz.
+    </p>
+    <p>
+      Amafia tá só começando, mas tem potência de sobra. Sua música é mistura de tudo o que viveu: dores, conquistas, perguntas e revoltas — tudo isso com um olhar sincero de quem sabe que ainda tem muito a construir, e vai chegar.
+    </p>
+  </section>
+
+  <section id="contact" class="section contact" data-aos="fade-up">
+    <h2>Contato</h2>
+    <p>Para parcerias, envie um e-mail para <a href="mailto:amafia.contato@gmail.com">amafia.contato@gmail.com</a></p>
+    <p>Para apoiar o trabalho da artista você pode também segui-la pelo Instagram <a href="https://www.instagram.com/mariah_tavelli/" target="_blank">@Mariah_Tavelli</a></p>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Amafia. All rights reserved.</p>
+  </footer>
+
+  <!-- Lottie JS -->
+  <script src="https://unpkg.com/lottie-web/build/player/lottie.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
